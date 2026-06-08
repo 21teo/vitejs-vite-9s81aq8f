@@ -16,21 +16,21 @@ export default function App() {
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-zinc-900">
         <h2 className="text-4xl font-bold mb-10 text-blue-400">Dosti aur Chatting</h2>
         <img src="/chatting.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chatting" />
-        <p className="mt-8 text-2xl font-light text-center">Dheere-dheere dosti gehri hoti gayi.</p>
+        <p className="mt-8 text-2xl font-light text-center">Tumse apne man ki baatein share karna bohot acha lagta tha</p>
       </section>
 
       {/* 3. SCENE: Chocolate */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-amber-400">Ek Chocolate, Ek Umeed</h2>
         <img src="/chocolate.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chocolate" />
-        <p className="mt-8 text-2xl font-light text-center">Ma bohot man se, khushi se tumhe gift dene aya tha</p>
+        <p className="mt-8 text-2xl font-light text-center">Ma bohot man se, dil se tumhare lie choclate or gifts laya tha par tumne mujhe galat samjha</p>
       </section>
 
       {/* 4. SCENE: Video Exchange Scene */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-pink-50 text-black">
         <h2 className="text-3xl font-bold mb-10 text-pink-600">Ek Chhoti si Koshish</h2>
         <img src="/video_exchange.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl" alt="Video exchange" />
-        <p className="mt-8 text-xl font-medium italic">"Sirf ek baar tum hus do, wahi kaafi tha..."</p>
+        <p className="mt-8 text-xl font-medium italic">"Sirf ek baar tum hus do, wahi kaafi tha...islie tumhe video send karta tha, khudko joker banake"</p>
       </section>
 
       {/* 5. SCENE: WhatsApp Block Animation */}
