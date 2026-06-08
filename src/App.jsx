@@ -9,7 +9,7 @@ export default function App() {
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet</h2>
         <img src="/boy_assignment.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Assignment" />
-        <p className="mt-8 text-2xl font-light text-center">Uske ek kehne pe uske liye assignment likha...</p>
+        <p className="mt-8 text-2xl font-light text-center">Tumhare ek kehne pe tumhare liye sari raat assignment likha...</p>
       </section>
 
       {/* 2. SCENE: Chatting */}
