@@ -7,7 +7,7 @@ export default function App() {
       
       {/* 1. SCENE: Assignment */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
-        <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet</h2>
+        <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet with sweety</h2>
         <img src="/boy_assignment.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Assignment" />
         <p className="mt-8 text-2xl font-light text-center">Tumhare ek kehne pe tumhare liye sari raat assignment likha...</p>
       </section>
@@ -58,7 +58,7 @@ export default function App() {
       {/* 6. SCENE: Final Sad Scene */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-red-950">
         <img src="/sad_boy.jpg" className="w-full max-w-xl rounded-full shadow-2xl border-4 border-red-500" alt="Sad Boy" />
-        <h2 className="text-5xl font-black mt-10 text-red-200 text-center italic">"Main tumhara dost nahi ban paya."</h2>
+        <h2 className="text-5xl font-black mt-10 text-red-200 text-center italic">"Main tumhara dost hi nahi ban paya...</h2>
       </section>
 
     </div>
