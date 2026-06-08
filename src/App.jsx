@@ -7,9 +7,9 @@ export default function App() {
       
       {/* 1. SCENE: Assignment */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
-        <h2 className="text-4xl font-bold mb-10 text-pink-400">Assignment Ka Safar</h2>
+        <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet</h2>
         <img src="/boy_assignment.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Assignment" />
-        <p className="mt-8 text-2xl font-light text-center">Usne uske liye assignments likhe...</p>
+        <p className="mt-8 text-2xl font-light text-center">Uske ek kehne pe uske liye assignment likha...</p>
       </section>
 
       {/* 2. SCENE: Chatting */}
@@ -23,19 +23,19 @@ export default function App() {
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-amber-400">Ek Chocolate, Ek Umeed</h2>
         <img src="/chocolate.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chocolate" />
-        <p className="mt-8 text-2xl font-light text-center">Wo chocolate dene gaya, ek naye mod ki umeed me.</p>
+        <p className="mt-8 text-2xl font-light text-center">Ma bohot man se, khushi se tumhe gift dene aya tha</p>
       </section>
 
       {/* 4. SCENE: Video Exchange Scene */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-pink-50 text-black">
         <h2 className="text-3xl font-bold mb-10 text-pink-600">Ek Chhoti si Koshish</h2>
         <img src="/video_exchange.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl" alt="Video exchange" />
-        <p className="mt-8 text-xl font-medium italic">"Sirf ek baar wo hass de, wahi kaafi tha..."</p>
+        <p className="mt-8 text-xl font-medium italic">"Sirf ek baar tum hus do, wahi kaafi tha..."</p>
       </section>
 
       {/* 5. SCENE: WhatsApp Block Animation */}
       <section className="min-h-screen flex flex-col items-center justify-center bg-[#0f172a] text-slate-300 p-8">
-        <h2 className="text-3xl font-bold mb-8 text-slate-400">Khamoshi</h2>
+        <h2 className="text-3xl font-bold mb-8 text-slate-400">Khamoshi.....ab sab khatam</h2>
         <motion.div 
           initial={{ opacity: 1 }}
           whileInView={{ opacity: [1, 0.5, 0.1] }}
