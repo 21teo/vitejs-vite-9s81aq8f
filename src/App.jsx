@@ -34,21 +34,21 @@ export default function App() {
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet with sweety</h2>
         <img src="/boy_assignment.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Assignment" />
-        <p className="mt-8 text-2xl font-light text-center">Tumhare ek kehne pe tumhare liye sari raat assignment likha...</p>
+        <p className="mt-8 text-2xl font-light text-center">Us din ma itna khush tha, us din tumhare lie kuch bhi, islie tumhare ek kehne pe tumhare liye sari raat assignment likha...</p>
       </section>
 
       {/* 2. SCENE: Chatting */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-zinc-900">
         <h2 className="text-4xl font-bold mb-10 text-blue-400">Dosti aur Chatting</h2>
         <img src="/chatting.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chatting" />
-        <p className="mt-8 text-2xl font-light text-center">Tumse apne man ki baatein share karna bohot acha lagta tha</p>
+        <p className="mt-8 text-2xl font-light text-center">Tumse apne man ki baatein share karna bohot acha lagta tha......</p>
       </section>
 
       {/* 3. SCENE: Chocolate */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-amber-400">Ek Chocolate, Ek Umeed</h2>
         <img src="/chocolate.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chocolate" />
-        <p className="mt-8 text-2xl font-light text-center">Ma bohot man se, dil se tumhare lie choclate or gifts laya tha par tumne mujhe galat samjha</p>
+        <p className="mt-8 text-2xl font-light text-center">Ma bohot khushi se tumhare lie choclate or gifts laya tha par tumne mujhe galat samjha....</p>
       </section>
 
       {/* 4. SCENE: Video Exchange Scene */}
@@ -83,7 +83,7 @@ export default function App() {
       {/* 6. SCENE: Final Sad Scene */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-red-950">
         <img src="/sad_boy.jpg" className="w-full max-w-xl rounded-full shadow-2xl border-4 border-red-500" alt="Sad Boy" />
-        <h2 className="text-5xl font-black mt-10 text-red-200 text-center italic">"Main tumhara dost hi nahi ban paya...</h2>
+        <h2 className="text-5xl font-black mt-10 text-red-200 text-center italic">"Par at the end main tumhara dost hi nahi ban paya...</h2>
       </section>
     </div>
   );
