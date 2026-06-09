@@ -25,9 +25,9 @@ export default function App() {
         <source src="/khat.mp3" type="audio/mpeg" />
       </audio>
 
-      <div className="fixed top-4 right-4 z-50 text-xs text-slate-500 animate-pulse">
-        Click anywhere to hear the story...
-      </div>
+     <div className="fixed top-4 right-4 z-50 text-xs text-pink-600 font-bold animate-pulse">
+  Click anywhere to play song...
+</div>
 
       {/* 1. SCENE: Assignment */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
