@@ -33,30 +33,30 @@ export default function App() {
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet with sweety</h2>
         <img src="/boy_assignment.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Assignment" />
-        <p className="mt-8 text-2xl font-light text-center">Us din ma itna khush tha, us din tumhare lie kuch bhi, islie tumhare ek kehne pe tumhare liye sari raat assignment likha...</p>
+        <p className="mt-8 text-2xl font-light text-center">Us din ma itna khush tha, us din tumhare lie kuch bhi, ma pagal ho gaya tha, islie ma us sari raat jaga...</p>
       </section>
 
       {/* 2. SCENE: Chatting */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-zinc-900">
         <h2 className="text-4xl font-bold mb-10 text-blue-400">Dosti aur Chatting</h2>
         <img src="/chatting.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chatting" />
-        <p className="mt-8 text-2xl font-light text-center">Tumse apne man ki baatein share karna bohot acha lagta tha......</p>
+        <p className="mt-8 text-2xl font-light text-center">Tumse apni problems share karta tha, to mera man halka ho jata tha......</p>
       </section>
 
       {/* 2.5 SCENE: Laptop Help */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-sky-950 text-white">
-        <h2 className="text-4xl font-bold mb-10 text-sky-300">Technology aur Hum</h2>
+        <h2 className="text-4xl font-bold mb-10 text-sky-300">Laptop issue</h2>
         <img src="/laptop.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Laptop Help" />
         <div className="mt-8 text-center">
-          <p className="text-2xl font-light italic">"Tumhare laptop ki screen jab atak gayi thi, tab mujhe laga shayad tumhari problems bhi aise hi fix kar paunga..."</p>
+          <p className="text-2xl font-light italic">"Us din tumhare laptop ke issue se, meri mere dost se ladai ho gyi thi, or mujse uski wrist watch tut gyi thi 😅, kyunki wo tumhare laptop ke issue ko ek tension bol raha tha..."</p>
         </div>
       </section>
 
       {/* 3. SCENE: Chocolate */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
-        <h2 className="text-4xl font-bold mb-10 text-amber-400">Ek Chocolate, Ek Umeed</h2>
+        <h2 className="text-4xl font-bold mb-10 text-amber-400">That Best Meet Ever 💕💕</h2>
         <img src="/chocolate.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chocolate" />
-        <p className="mt-8 text-2xl font-light text-center">Ma bohot khushi se tumhare lie choclate or gifts laya tha par tumne mujhe galat samjha....</p>
+        <p className="mt-8 text-2xl font-light text-center">Ma paglo ki tarah tumse milne aaya tha, or tumhare lie choclate or gifts laya tha par tumne to chocolate bhi nahi li 🥹....</p>
       </section>
 
       {/* 4. SCENE: Video Exchange Scene */}
