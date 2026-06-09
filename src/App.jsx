@@ -5,10 +5,10 @@ export default function App() {
   const audioRef = useRef(null);
 
   useEffect(() => {
-    // Ye function ensure karta hai ki browser autoplay policy block na kare
+    // Sirf Audio Autoplay logic bacha hai
     const handleUserInteraction = () => {
       if (audioRef.current) {
-        audioRef.current.currentTime = 45; // 45 seconds par set kiya
+        audioRef.current.currentTime = 45;
         audioRef.current.play();
         window.removeEventListener('click', handleUserInteraction);
       }
@@ -42,6 +42,16 @@ export default function App() {
         <h2 className="text-4xl font-bold mb-10 text-blue-400">Dosti aur Chatting</h2>
         <img src="/chatting.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Chatting" />
         <p className="mt-8 text-2xl font-light text-center">Tumse apne man ki baatein share karna bohot acha lagta tha......</p>
+      </section>
+
+      {/* 2.5 SCENE: Laptop Help */}
+      <section className="min-h-screen flex flex-col items-center justify-center p-8 bg-sky-950 text-white">
+        <h2 className="text-4xl font-bold mb-10 text-sky-300">Technology aur Hum</h2>
+        <img src="/laptop.jpg" className="w-full max-w-xl rounded-3xl shadow-2xl border-4 border-white/10" alt="Laptop Help" />
+        <div className="mt-8 text-center">
+          <p className="text-2xl font-light italic">"Tumhare laptop ki screen jab atak gayi thi, tab mujhe laga shayad tumhari problems bhi aise hi fix kar paunga..."</p>
+          <p className="mt-4 text-sm text-sky-400">Ek choti si madad, bas tumhe muskurate dekhne ke liye.</p>
+        </div>
       </section>
 
       {/* 3. SCENE: Chocolate */}
