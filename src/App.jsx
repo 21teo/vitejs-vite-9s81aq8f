@@ -1,10 +1,35 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 export default function App() {
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    // Ye function ensure karta hai ki browser autoplay policy block na kare
+    const handleUserInteraction = () => {
+      if (audioRef.current) {
+        audioRef.current.currentTime = 45; // 45 seconds par set kiya
+        audioRef.current.play();
+        window.removeEventListener('click', handleUserInteraction);
+      }
+    };
+
+    window.addEventListener('click', handleUserInteraction);
+    return () => window.removeEventListener('click', handleUserInteraction);
+  }, []);
+
   return (
     <div className="bg-black text-white min-h-screen">
-      
+      {/* Music Player - Hidden */}
+      <audio ref={audioRef} loop>
+        <source src="/khat.mp3" type="audio/mpeg" />
+      </audio>
+
+      {/* Click indicator for user */}
+      <div className="fixed top-4 right-4 z-50 text-xs text-slate-500 animate-pulse">
+        Click anywhere to hear the story...
+      </div>
+
       {/* 1. SCENE: Assignment */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <h2 className="text-4xl font-bold mb-10 text-pink-400">First meet with sweety</h2>
@@ -60,7 +85,6 @@ export default function App() {
         <img src="/sad_boy.jpg" className="w-full max-w-xl rounded-full shadow-2xl border-4 border-red-500" alt="Sad Boy" />
         <h2 className="text-5xl font-black mt-10 text-red-200 text-center italic">"Main tumhara dost hi nahi ban paya...</h2>
       </section>
-
     </div>
   );
 }
