@@ -1,5 +1,18 @@
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react'; // Import yahan kiya
+
+export default function App() {
+  // ... (baaki ka code waisa hi rahega)
+
+  return (
+    <div className="bg-black text-white min-h-screen">
+      <Analytics /> {/* Yahan component laga diya */}
+      
+      {/* ... baaki content ... */}
+    </div>
+  );
+}
 
 export default function App() {
   const audioRef = useRef(null);
