@@ -25,7 +25,7 @@ export default function App() {
         <source src="/khat.mp3" type="audio/mpeg" />
       </audio>
 
-     <div className="fixed top-4 right-4 z-50 text-xs text-pink-600 font-bold animate-pulse">
+     <div className="fixed top-4 right-4 z-50 text-2xl text-pink-600 font-bold animate-pulse">
   Click anywhere to play song...
 </div>
 
