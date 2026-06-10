@@ -72,7 +72,7 @@ export default function App() {
         <motion.div 
           initial={{ opacity: 1 }}
           whileInView={{ opacity: [1, 0.7, 0.4] }}
-          transition={{ duration: 3, ease: "linear" }}
+          transition={{ duration: 2.5, ease: "linear" }}
           className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4 max-w-sm w-full"
         >
           <div className="flex items-center gap-3 border-b border-slate-800 pb-2">
