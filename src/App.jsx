@@ -75,7 +75,16 @@ export default function App() {
           transition={{ duration: 4, ease: "linear" }}
           className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4 max-w-sm w-full"
         >
-          <p className="text-sm text-slate-500 italic py-4 text-center">Chat history is clearing or contact has become unavailable.</p>
+          <div className="flex items-center gap-3 border-b border-slate-800 pb-2">
+            <div className="w-10 h-10 rounded-full bg-slate-700"></div>
+            <div>
+              <div className="font-semibold text-sm text-slate-400">sweety</div>
+              <div className="text-[10px] text-rose-400">Tap for details</div>
+            </div>
+          </div>
+          <p className="text-sm text-slate-500 italic py-4 text-center">
+            Chat history is clearing or contact has become unavailable.
+          </p>
         </motion.div>
       </section>
 
