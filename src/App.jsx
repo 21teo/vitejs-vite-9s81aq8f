@@ -71,7 +71,7 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-8 text-slate-400">Khamoshi.....ab sab khatam</h2>
         <motion.div 
           initial={{ opacity: 1 }}
-          whileInView={{ opacity: [1, 0.7, 0.4] }}
+          whileInView={{ opacity: [1, 0.6, 0.4] }}
           transition={{ duration: 2.5, ease: "linear" }}
           className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4 max-w-sm w-full"
         >
